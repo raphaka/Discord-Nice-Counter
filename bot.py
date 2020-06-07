@@ -1,8 +1,9 @@
 # Work with Python 3.6
 import discord
 import events
+import sys
 
-TOKEN = 'NzE1MzA2NzQ4NjQyMTk3NTU0.Xt0Rhw.ZpwYUbZVNvrZAfM9XbZyn7jzlrg'
+TOKEN = sys.argv[1]
 
 client = discord.Client()
 
